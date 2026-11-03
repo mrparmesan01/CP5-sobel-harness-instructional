@@ -64,6 +64,23 @@ sobel_filtered_pixel(float *s, int i, int j , int ncols, int nrows, float *gx, f
    // ADD CODE HERE:  add your code here for computing the sobel stencil computation at location (i,j)
    // of input s, returning a float
 
+    for(int n_i = 0; n_i < 3; n_i++)
+   {
+      for(int n_j = 0; n_j < 3; n_j++)
+      {
+         int x = i + (n_i - 1);
+         int y = j + (n_j - 1);
+
+         // Check for boundary conditions
+         if(x >= 0 && x < nrows && y >= 0 && y < ncols)
+         {
+            int idx = x * ncols + y;
+            t += s[idx] * gx[n_i * 3 + n_j]; // Gx contribution
+            t += s[idx] * gy[n_i * 3 + n_j]; // Gy contribution
+         }
+      }
+   }
+
    return t;
 }
 
@@ -95,6 +112,17 @@ sobel_kernel_gpu(float *s,  // source image pixels
 
    // because this is CUDA, you need to use CUDA built-in variables to compute an index and stride
    // your processing motif will be very similar here to that we used for vector add in Lab #2
+   for(int i = 0; i < nrows; i++)
+   {
+      for(int j = 0; j < ncols; j++)
+      {
+         // compute the index in the 1D array
+         int idx = i * ncols + j;
+
+         // call the sobel_filtered_pixel function to compute the value at (i,j)
+         d[idx] = sobel_filtered_pixel(s, i, j, ncols, nrows, gx, gy);
+      }
+   }
 }
 
 int
