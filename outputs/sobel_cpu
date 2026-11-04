@@ -1,0 +1,253 @@
+Successfully paused profiling.
+Working on config N=32, B=1
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 32 -B 1
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.337803 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=32, B=4
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 32 -B 4
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.214393 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=32, B=16
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 32 -B 16
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.112467 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=32, B=64
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 32 -B 64
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.0810888 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=32, B=256
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 32 -B 256
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.126277 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=32, B=1024
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 32 -B 1024
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.0928598 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=32, B=4096
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 32 -B 4096
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.0577522 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=64, B=1
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 64 -B 1
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.20359 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=64, B=4
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 64 -B 4
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.32263 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=64, B=16
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 64 -B 16
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.307623 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=64, B=64
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 64 -B 64
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.236364 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=64, B=256
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 64 -B 256
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.220867 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=64, B=1024
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 64 -B 1024
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.120484 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=64, B=4096
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 64 -B 4096
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.173278 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=128, B=1
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 128 -B 1
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.416326 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=128, B=4
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 128 -B 4
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.619452 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=128, B=16
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 128 -B 16
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.208306 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=128, B=64
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 128 -B 64
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.119502 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=128, B=256
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 128 -B 256
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.179034 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=128, B=1024
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 128 -B 1024
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.222795 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=128, B=4096
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 128 -B 4096
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.0391735 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=256, B=1
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 256 -B 1
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.093417 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=256, B=4
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 256 -B 4
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.253741 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=256, B=16
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 256 -B 16
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.317891 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=256, B=64
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 256 -B 64
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.414217 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=256, B=256
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 256 -B 256
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.213516 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=256, B=1024
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 256 -B 1024
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.511156 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=256, B=4096
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 256 -B 4096
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.116877 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=512, B=1
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 512 -B 1
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.0749824 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=512, B=4
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 512 -B 4
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.231723 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=512, B=16
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 512 -B 16
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.0273379 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=512, B=64
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 512 -B 64
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.185433 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=512, B=256
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 512 -B 256
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.115288 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=512, B=1024
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 512 -B 1024
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.175016 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=512, B=4096
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 512 -B 4096
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.128853 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=1024, B=1
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 1024 -B 1
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.098232 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=1024, B=4
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 1024 -B 4
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.0330313 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=1024, B=16
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 1024 -B 16
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.181627 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=1024, B=64
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 1024 -B 64
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.326775 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=1024, B=256
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 1024 -B 256
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.224523 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=1024, B=1024
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 1024 -B 1024
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.219398 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
+Working on config N=1024, B=4096
+ncu --set basic  --metrics smsp__cycles_active.avg.pct_of_peak_sustained_elapsed,dram__throughput.avg.pct_of_peak_sustained_elapsed,gpu__time_duration.avg --replay-mode kernel  --launch-count 1  sobel_cpu -N 1024 -B 4096
+ Read data from the file ../data/zebra-gray-int8-4x 
+ Elapsed time is : 0.127783 
+ Wrote the output file ../data/processed-raw-int8-4x-cpu.dat 
+==WARNING== No kernels were profiled.
